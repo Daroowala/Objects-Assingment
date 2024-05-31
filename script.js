@@ -3,13 +3,13 @@ const mobileData = {
         models: {
             'iPhone 13': {
                 features: '5G, Dual-camera system, A15 Bionic chip',
-                rate: '$799',
+                rate: 'Rs400000',
                 color: 'Blue, Pink, Midnight, Starlight, (PRODUCT)RED',
                 image: 'https://cdn.pixabay.com/photo/2021/12/08/19/28/iphone-13-6856540_1280.jpg'
             },
             'iPhone 12': {
                 features: '5G, Dual-camera system, A14 Bionic chip',
-                rate: '$699',
+                rate: 'Rs350000',
                 color: 'Blue, Green, Red, White, Black',
                 image: 'https://tse2.mm.bing.net/th?id=OIP.S642417bsPNe4H3JaLDG2QHaGl&pid=Api&P=0&h=220'
             }
@@ -19,15 +19,15 @@ const mobileData = {
         models: {
             'Galaxy S21': {
                 features: '5G, Triple-camera system, Exynos 2100',
-                rate: '$799',
+                rate: 'Rs170000',
                 color: 'Phantom Gray, Phantom White, Phantom Violet, Phantom Pink',
-                image: 'https://via.placeholder.com/200?text=Galaxy+S21'
+                image: 'https://tse2.mm.bing.net/th?id=OIP.osuCIeI6LbngiMna2sPk1QHaDs&pid=Api&P=0&h=220'
             },
             'Galaxy Note 20': {
                 features: '5G, Triple-camera system, Snapdragon 865+',
-                rate: '$999',
+                rate: 'Rs180000',
                 color: 'Mystic Bronze, Mystic Green, Mystic Gray',
-                image: 'https://via.placeholder.com/200?text=Galaxy+Note+20'
+                image: 'https://tse2.explicit.bing.net/th?id=OIP.J5Tu8Fj6V_TE-z0eWg3LKQAAAA&pid=Api&P=0&h=220'
             }
         }
     },

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Selector</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Mobile Selector</h1>
+        <label>Select Mobile Company:</label>
+        <select id="company" onchange="populateModels()">
+            <option>--Select Company--</option>
+            <option value="apple">Apple</option>
+            <option value="samsung">Samsung</option>
+            <option value="oneplus">OnePlus</option>
+            <option value="oppo">Oppo</option>
+        </select>
+        
+        <label>Select Mobile Model:</label>
+        <select id="model" onchange="showDetails()">
+            <option value="">--Select Model--</option>
+        </select>
+        <br><br>
+        <div id="details" class="details"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

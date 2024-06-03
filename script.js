@@ -46,8 +46,24 @@ const mobileData = {
                 image: 'Images/Oneplus 8T.jpg'
             }
         }
-    }
-};
+    },
+    oppo: {
+        models: {
+                 'Oppo R21': {
+                        features: 'OPPO R21 Pro 5G,Snapdragon 888,108MP Camera,12GB RAM,6000mAh Battery/OPPO R21 Pro',
+                        rate: '120000',
+                        color: 'Sea Green, Sky Blue',
+                        image: 'Images/oppo-R21 Pro.jpg'
+                    },
+                    'Oppo A9': {
+                        features: 'The camera set-up on the phone includes a four rear camera of 48 MP + 8 MP  + 2 MP + 2 , Non-removable Li-Po 5000 mAh battery',
+                        rate: '60000',
+                        color: 'Green Amazone',
+                        image: 'Images/oppo-A9.jpg'
+                }
+            }
+        },
+        }
 
 function populateModels() {
     const companySelect = document.getElementById('company');

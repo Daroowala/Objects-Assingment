@@ -5,13 +5,13 @@ const mobileData = {
                 features: '5G, Dual-camera system, A15 Bionic chip',
                 rate: 'Rs400000',
                 color: 'Blue, Pink, Midnight, Starlight, (PRODUCT)RED',
-                image: 'https://cdn.pixabay.com/photo/2021/12/08/19/28/iphone-13-6856540_1280.jpg'
+                image: 'Images/iphone-13-6856540_1280.jpg'
             },
             'iPhone 12': {
                 features: '5G, Dual-camera system, A14 Bionic chip',
                 rate: 'Rs350000',
                 color: 'Blue, Green, Red, White, Black',
-                image: 'https://tse2.mm.bing.net/th?id=OIP.S642417bsPNe4H3JaLDG2QHaGl&pid=Api&P=0&h=220'
+                image: 'Images/iphone 12.jpeg'
             }
         }
     },
@@ -21,13 +21,13 @@ const mobileData = {
                 features: '5G, Triple-camera system, Exynos 2100',
                 rate: 'Rs170000',
                 color: 'Phantom Gray, Phantom White, Phantom Violet, Phantom Pink',
-                image: 'https://tse2.mm.bing.net/th?id=OIP.osuCIeI6LbngiMna2sPk1QHaDs&pid=Api&P=0&h=220'
+                image: 'Images/Galaxy S21.jpeg'
             },
             'Galaxy Note 20': {
                 features: '5G, Triple-camera system, Snapdragon 865+',
                 rate: 'Rs180000',
                 color: 'Mystic Bronze, Mystic Green, Mystic Gray',
-                image: 'https://tse2.explicit.bing.net/th?id=OIP.J5Tu8Fj6V_TE-z0eWg3LKQAAAA&pid=Api&P=0&h=220'
+                image: 'Images/Galaxy-S20_S20_S20_Ultra_5G_full_rgb.png'
             }
         }
     },
@@ -37,13 +37,13 @@ const mobileData = {
                 features: '5G, Triple-camera system, Snapdragon 888',
                 rate: '$729',
                 color: 'Winter Mist, Arctic Sky, Astral Black',
-                image: 'https://via.placeholder.com/200?text=OnePlus+9'
+                image: 'Images/Oneplus 9.jpeg'
             },
             'OnePlus 8T': {
                 features: '5G, Quad-camera system, Snapdragon 865',
                 rate: '$599',
                 color: 'Aquamarine Green, Lunar Silver',
-                image: 'https://via.placeholder.com/200?text=OnePlus+8T'
+                image: 'Images/Oneplus 8T.jpg'
             }
         }
     }

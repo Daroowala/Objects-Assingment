@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
+    <!-- <div class="container">
         <h1>Mobile Selector</h1>
+        
         <label>Select Mobile Company:</label>
         <select id="company" onchange="populateModels()">
             <option>--Select Company--</option>
@@ -24,7 +25,24 @@
         </select>
         <br><br>
         <div id="details" class="details"></div>
+    </div> -->
+
+    
+    <div class="inbox">
+        <img width="200px" height="150px" src="Images/iphone-13-6856540_1280.jpg" alt="Mobile Image" class="mobile-image">
+        <h3 id="mobile-name" onclick="showModels()">Apple</h3>
     </div>
+
+    <div id="models" style="display:none;">
+        <select id="model-select" onchange="showDetails()">
+            <option value="">Select a model</option>
+            <option value="model1">Iphone 12</option>
+            <option value="model2">Iphone 13</option>
+        </select>
+    </div>
+
+    <div id="model-details" class="details"></div>
+
     <script src="script.js"></script>
 </body>
 </html>

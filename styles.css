@@ -58,3 +58,9 @@ select {
     position: relative;
     left: 70px;
 } */
+
+#mobile-name{
+    display: flex;
+    margin: 0px 0px 0px 75px;
+    color: blue;
+}

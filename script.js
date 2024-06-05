@@ -116,7 +116,8 @@ function showDetails() {
 
     switch (selectedModel) {
         case 'model1':
-            details = '<h2>iphone 12</h2>'
+            details = '<h2>iphone 12</h2><h3>Featurs:</h3><p>5G, Dual-camera system, A13 Bionic chip </p><h3>Rates:</h3><p>Rs: 350000/-</p><h3>Colors:</h3><p>Blue, Green, Red, White, Black</p>'
+
             break;
         case 'model2':
             details = '<h3>Model 2 Details</h3><p>This is the detail of Model 2.</p>';

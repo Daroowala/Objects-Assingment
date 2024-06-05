@@ -59,8 +59,22 @@ select {
     left: 70px;
 } */
 
+.inbox{
+    display: flex;
+}
+
 #mobile-name{
     display: flex;
-    margin: 0px 0px 0px 75px;
+    margin: 151px 0px 0px -122px;
+    color: blue;
+}
+.inbox2{
+    display: flex;
+    justify-content: space-around;
+    margin: -173px 0px 0px 161px;
+}
+#mobile-name2{
+    display: flex;
+    margin: 0px 0px 0px 226px;
     color: blue;
 }

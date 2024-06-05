@@ -116,14 +116,13 @@ function showDetails() {
 
     switch (selectedModel) {
         case 'model1':
-            details = '<h2>iphone 12</h2><h3>Featurs:</h3><p>5G, Dual-camera system, A13 Bionic chip </p><h3>Rates:</h3><p>Rs: 350000/-</p><h3>Colors:</h3><p>Blue, Green, Red, White, Black</p>'
+            details = '<h2>iphone 12</h2><img width="200px" height="150px" src="Images/iphone 12.jpeg" alt=""><h3>Featurs:</h3><p>5G, Dual-camera system, A13 Bionic chip </p><h3>Rates:</h3><p>Rs: 350000/-</p><h3>Colors:</h3><p>Blue, Green, Red, White, Black</p>'
 
             break;
         case 'model2':
-            details = '<h3>Model 2 Details</h3><p>This is the detail of Model 2.</p>';
+            details = '<h2>iphone 13</h2><img width="200px" height="150px"src="Images/iphone-13-6856540_1280.jpg" alt=""><h3>Featurs:</h3><p>5G, Dual-camera system, A14 Bionic chip </p><h3>Rates:</h3><p>Rs: 400000/-</p><h3>Colors:</h3><p>Blue, Pink, Midnight, Starlight, (PRODUCT)RED</p>'
             break;
-        default:
-            details = '';
+        
     }
 
     modelDetails.innerHTML = details;

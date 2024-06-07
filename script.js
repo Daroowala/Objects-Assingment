@@ -103,6 +103,7 @@
 //     }
 // }
 
+// Apple Mobile
 function showModels() {
     document.getElementById('models').style.display = 'block';
 }
@@ -129,6 +130,9 @@ function showDetails() {
     modelDetails.style.display = details ? 'block' : 'none';
 }
 
+
+
+// Samsung Mobile
 function showModels2() {
     document.getElementById('models2').style.display = 'block';
 }
@@ -154,3 +158,62 @@ function showDetails2() {
     modelDetails.innerHTML = details;
     modelDetails.style.display = details ? 'block' : 'none';
 }
+
+
+
+// OnePlus Mobile
+function showModels3() {
+    document.getElementById('models3').style.display = 'block';
+}
+
+
+function showDetails3() {
+    const modelSelect = document.getElementById('model-select3');
+    const modelDetails = document.getElementById('model-details3');
+    const selectedModel = modelSelect.value;
+
+    let details = '';
+
+    switch (selectedModel) {
+        case 'model1':
+            details = '<h2>OnePlus 9</h2><img width="200px" height="150px" src="Images/Oneplus 9.jpeg" alt=""><h3>Featurs:</h3><p>5G, Dual-camera system, 128GB Ram, Screen Size	6.9 Inches, </p><h3>Rates:</h3><p>Rs: 250000/-</p><h3>Colors:</h3><p>Blue, Green, Red, White, Black</p>'
+            break;
+
+            case 'model2':
+            details = '<h2>OnePlus 8T</h2><img width="200px" height="150px"src="Images/Oneplus 8T.jpg" alt=""><h3>Featurs:</h3><p>5G, Dual-camera system, CPU	Qualcomm Snapdragon 888 </p><h3>Rates:</h3><p>Rs: 500000/-</p><h3>Colors:</h3><p>Blue, Pink, Midnight, Starlight</p>'
+            break;
+        
+    }
+    modelDetails.innerHTML = details;
+    modelDetails.style.display = details ? 'block' : 'none';
+}
+
+
+
+// Oppo Mobile
+function showModels4() {
+    document.getElementById('models4').style.display = 'block';
+}
+
+
+function showDetails4() {
+    const modelSelect = document.getElementById('model-select4');
+    const modelDetails = document.getElementById('model-details4');
+    const selectedModel = modelSelect.value;
+
+    let details = '';
+
+    switch (selectedModel) {
+        case 'model1':
+            details = '<h2>Oppo R21</h2><img width="200px" height="150px" src="Images/oppo-R21 Pro.jpg" alt=""><h3>Featurs:</h3><p>5G, Dual-camera system, 128GB Ram, Screen Size	6.9 Inches, </p><h3>Rates:</h3><p>Rs: 250000/-</p><h3>Colors:</h3><p>Blue, Green, Red, White, Black</p>'
+            break;
+
+            case 'model2':
+            details = '<h2>Oppo A9</h2><img width="200px" height="150px"src="Images/oppo-A9.jpg" alt=""><h3>Featurs:</h3><p>5G, Dual-camera system, CPU	Qualcomm Snapdragon 888 </p><h3>Rates:</h3><p>Rs: 500000/-</p><h3>Colors:</h3><p>Blue, Pink, Midnight, Starlight</p>'
+            break;
+        
+    }
+    modelDetails.innerHTML = details;
+    modelDetails.style.display = details ? 'block' : 'none';
+}
+

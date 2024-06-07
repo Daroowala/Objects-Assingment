@@ -59,6 +59,7 @@ select {
     left: 70px;
 } */
 
+/* Apple Mobile */
 .inbox{
     display: flex;
 }
@@ -78,6 +79,7 @@ select {
 }
 
 
+/* Samsung Mobile */
 .inbox2{
     display: flex;
 }
@@ -97,4 +99,50 @@ select {
     display: flex;
     text-align: center;
    margin: 0px 0px 0px 194px;
+}
+
+
+/* OnePlus Mobile */
+.inbox3{
+    display: flex;
+}
+.mobile-image3{
+    display: flex;
+    position: absolute;
+    bottom: 449px;
+    left: 400px;
+}
+#mobile-name3{
+    display: flex;
+    margin: -22px 0px 0px 460px;
+    color: blue;
+}
+#model-select3{
+    color: brown;
+    display: flex;
+    text-align: center;
+   margin: 0px 0px 0px 434px;
+}
+
+
+/* Oppo Mobile */
+.inbox4{
+    display: flex;
+}
+.mobile-image4{
+    display: flex;
+    position: absolute;
+    bottom: 449px;
+    left: 600px;
+}
+#mobile-name4{
+    display: flex;
+    margin: -22px 0px 0px 673px;
+    color: blue;
+}
+#model-select4{
+    color: brown;
+    display: flex;
+    text-align: center;
+   margin: 0px 0px 0px 635px;
 }

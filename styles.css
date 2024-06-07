@@ -70,6 +70,13 @@ select {
     margin: 151px 0px 0px -125px;
     color: blue;
 }
+#model-select{
+    color: brown;
+    display: flex;
+    text-align: center;
+   margin: 0px 0px 0px 42px;
+}
+
 
 .inbox2{
     display: flex;

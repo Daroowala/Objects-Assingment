@@ -129,3 +129,7 @@ function showDetails() {
     modelDetails.style.display = details ? 'block' : 'none';
 }
 
+function showModels() {
+    document.getElementById('models').style.display = 'block';
+}
+

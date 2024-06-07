@@ -128,3 +128,4 @@ function showDetails() {
     modelDetails.innerHTML = details;
     modelDetails.style.display = details ? 'block' : 'none';
 }
+

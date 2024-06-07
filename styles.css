@@ -62,7 +62,9 @@ select {
 .inbox{
     display: flex;
 }
-
+.mobile-image{
+    display: flex;
+}
 #mobile-name{
     display: flex;
     margin: 151px 0px 0px -122px;
@@ -70,11 +72,10 @@ select {
 }
 .inbox2{
     display: flex;
-    justify-content: space-around;
-    margin: -173px 0px 0px 161px;
 }
-#mobile-name2{
+.mobile-image2{
     display: flex;
-    margin: 0px 0px 0px 226px;
-    color: blue;
+    position: absolute;
+    
+
 }

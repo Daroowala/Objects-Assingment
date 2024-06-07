@@ -92,3 +92,9 @@ select {
     margin: -22px 0px 0px 214px;
     color: blue;
 }
+#model-select2{
+    color: brown;
+    display: flex;
+    text-align: center;
+   margin: 0px 0px 0px 194px;
+}

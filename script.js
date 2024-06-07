@@ -129,7 +129,28 @@ function showDetails() {
     modelDetails.style.display = details ? 'block' : 'none';
 }
 
-function showModels() {
-    document.getElementById('models').style.display = 'block';
+function showModels2() {
+    document.getElementById('models2').style.display = 'block';
 }
 
+
+function showDetails2() {
+    const modelSelect = document.getElementById('model-select2');
+    const modelDetails = document.getElementById('model-details2');
+    const selectedModel = modelSelect.value;
+
+    let details = '';
+
+    switch (selectedModel) {
+        case 'model1':
+            details = '<h2>Samsung Galaxy S20</h2><img width="200px" height="150px" src="Images/Galaxy-S20_S20_S20_Ultra_5G_full_rgb.png" alt=""><h3>Featurs:</h3><p>5G, Dual-camera system, A13 Bionic chip </p><h3>Rates:</h3><p>Rs: 350000/-</p><h3>Colors:</h3><p>Blue, Green, Red, White, Black</p>'
+            break;
+
+            case 'model2':
+            details = '<h2>Samsung Galaxy S21</h2><img width="200px" height="150px"src="Images/Galaxy S21.jpeg" alt=""><h3>Featurs:</h3><p>5G, Dual-camera system, A14 Bionic chip </p><h3>Rates:</h3><p>Rs: 400000/-</p><h3>Colors:</h3><p>Blue, Pink, Midnight, Starlight, (PRODUCT)RED</p>'
+            break;
+        
+    }
+    modelDetails2.innerHTML = details;
+    modelDetails2.style.display = details ? 'block' : 'none';
+}

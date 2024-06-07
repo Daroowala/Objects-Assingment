@@ -62,25 +62,31 @@ select {
 /* Apple Mobile */
 .inbox{
     display: flex;
+   padding: 2%;
+   margin: 4%;
 }
 .mobile-image{
     display: flex;
 }
 #mobile-name{
-    display: flex;
-    margin: 151px 0px 0px -125px;
-    color: blue;
+   display: flex;
+   margin: 3% 0% 0% 0%;
+   color: blue;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
 }
 #model-select{
-    color: brown;
     display: flex;
-    text-align: center;
-   margin: 0px 0px 0px 42px;
+    margin: -20% 0% 16% 33%;
+    color: brown;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
 }
+
 
 
 /* Samsung Mobile */
-.inbox2{
+/* .inbox2{
     display: flex;
 }
 .mobile-image2{
@@ -99,11 +105,11 @@ select {
     display: flex;
     text-align: center;
    margin: 0px 0px 0px 194px;
-}
+} */
 
 
 /* OnePlus Mobile */
-.inbox3{
+/* .inbox3{
     display: flex;
 }
 .mobile-image3{
@@ -123,26 +129,26 @@ select {
     text-align: center;
    margin: 0px 0px 0px 434px;
 }
-
+ */
 
 /* Oppo Mobile */
-.inbox4{
+/* .inbox4{
     display: flex;
 }
 .mobile-image4{
     display: flex;
     position: absolute;
     bottom: 449px;
-    left: 600px;
+    left: 745px;
 }
 #mobile-name4{
     display: flex;
-    margin: -22px 0px 0px 673px;
+    margin: -22px 0px 0px 817px;
     color: blue;
 }
 #model-select4{
     color: brown;
     display: flex;
-    text-align: center;
-   margin: 0px 0px 0px 635px;
-}
+    text-align: center; */
+   /* margin: 0px 0px 0px 781px; */
+/* } */
